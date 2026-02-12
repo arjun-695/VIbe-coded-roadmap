@@ -209,14 +209,14 @@ export const mlProjects = {
               channel: "Murtaza's Workshop",
             },
             {
-              name: "Text Summarization with Hugging Face Transformers",
-              url: "https://www.youtube.com/watch?v=JlIF4dFBRBg",
-              channel: "Hugging Face",
+              name: "Text Summarization using BART Transformer — Fine-Tuning + Evaluation",
+              url: "https://www.youtube.com/results?search_query=text+summarization+BART+transformer+python+hugging+face+tutorial",
+              channel: "Various",
             },
             {
-              name: "Python Tesseract OCR — Quick Start",
-              url: "https://www.youtube.com/watch?v=0irmq71_-bI",
-              channel: "NeuralNine",
+              name: "A Beginners Guide to Tesseract OCR Using Pytesseract",
+              url: "https://www.youtube.com/results?search_query=tesseract+pytesseract+OCR+python+tutorial+beginners+guide",
+              channel: "Various",
             },
           ],
           resources: [
@@ -262,9 +262,9 @@ export const mlProjects = {
           ],
           videos: [
             {
-              name: "AI Music Composer — Deep Learning + Python (Google Colab)",
-              url: "https://www.youtube.com/watch?v=aOxE-pYNJg8",
-              channel: "Data Science Garage",
+              name: "Genetic Algorithm in Python Generates Music (Code Included)",
+              url: "https://www.youtube.com/watch?v=aOsET8KapQQ",
+              channel: "Kie Codes",
             },
             {
               name: "How to Generate Music with AI — Intro to Deep Learning #9",
@@ -272,9 +272,9 @@ export const mlProjects = {
               channel: "Siraj Raval",
             },
             {
-              name: "Generating Melodies with LSTM Nets — Series Overview",
-              url: "https://www.youtube.com/watch?v=FLr0r7QhNVw",
-              channel: "Valerio Velardo",
+              name: "Deep Learning (for Audio) with Python — Full Course",
+              url: "https://www.youtube.com/@ValerioVelardoTheSoundofAI",
+              channel: "Valerio Velardo — The Sound of AI",
             },
           ],
           resources: [
