@@ -8,7 +8,7 @@ import { mlProjects } from "./data/mlProjects";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-[#13111C] text-[#e2e0ea] overflow-x-hidden">
         <NavHeader />
 

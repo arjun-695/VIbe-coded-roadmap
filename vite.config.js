@@ -6,5 +6,5 @@ import react from "@vitejs/plugin-react";
 // Change 'cp-mastery-tracker' to your actual GitHub repo name
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_ACTIONS ? "/cp-mastery-tracker/" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/VIbe-coded-roadmap/" : "/",
 });
