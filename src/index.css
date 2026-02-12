@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --glass-bg: rgba(30, 30, 50, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --surface: #13111c;
+    --surface-2: #1a1828;
+    --surface-3: #221f33;
+    --text-primary: #e2e0ea;
+    --text-secondary: #9490ab;
+    --text-muted: #6b6785;
+  }
+
+  body {
+    @apply font-sans bg-[#13111C] text-[#e2e0ea] min-h-screen antialiased;
+  }
+}
+
+.glass {
+  @apply backdrop-blur-xl border border-[rgba(255,255,255,0.08)] shadow-xl;
+  background: var(--glass-bg);
+}
+
+.gradient-text {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
